@@ -10,6 +10,10 @@ for x in new_list:
 # inserting into a list as per the index
 my_list.insert(1, 15)
 
+# extending my list
 my_list.extend([50,60,70])
+
+# removing the last element
+my_list.pop()
 
 print(my_list)
