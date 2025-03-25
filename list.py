@@ -16,4 +16,6 @@ my_list.extend([50,60,70])
 # removing the last element
 my_list.pop()
 
+my_list.sort(reverse=True)
+
 print(my_list)
